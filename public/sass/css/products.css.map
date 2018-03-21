@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEQ,oBAAG;EACC,UAAU,EAAE,MAAM",
+"sources": ["../shop/products.scss"],
+"names": [],
+"file": "products.css"
+}

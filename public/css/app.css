@@ -1,0 +1,69 @@
+body {
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover; }
+
+header {
+  padding-top: 30px; }
+  header h1 {
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer; }
+  header nav {
+    float: right; }
+    header nav ul {
+      align-items: center;
+      display: flex; }
+      header nav ul input {
+        display: inline-block !important; }
+      header nav ul a {
+        margin-right: 30px; }
+        header nav ul a:last-child {
+          margin-right: 0; }
+        header nav ul a li {
+          cursor: pointer;
+          display: inline-block; }
+          header nav ul a li h2 {
+            margin-left: 30px; }
+
+.shop-index {
+  margin-top: 50px; }
+  .shop-index .item {
+    border: 1px solid #3097D1;
+    padding-bottom: 30px; }
+    .shop-index .item h4 {
+      margin-top: 30px;
+      text-align: center; }
+    .shop-index .item span {
+      display: block;
+      text-align: center; }
+
+.products {
+  margin-top: 50px; }
+  .products .item {
+    background: #8eb4cb;
+    border: 1px solid #FFFFFF;
+    margin: 15px 0;
+    padding: 30px; }
+    .products .item a {
+      display: block;
+      text-align: center; }
+    .products .item .delete-btn {
+      margin-top: 15px; }
+    .products .item h4 {
+      margin: 10px 0;
+      text-align: center; }
+    .products .item span {
+      display: block;
+      text-align: center; }
+  .products .wrapper {
+    align-items: center;
+    display: flex; }
+    .products .wrapper .btn {
+      margin-left: 30px; }
+
+.menu ul a {
+  margin-right: 30px; }
+  .menu ul a:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=app.css.map */

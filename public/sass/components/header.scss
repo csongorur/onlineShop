@@ -1,0 +1,33 @@
+header {
+    padding-top: 30px;
+    h1 {
+        color: #FFFFFF;font-weight: bold;
+        cursor: pointer;
+    }
+    nav {
+        float: right;
+        ul {
+            align-items: center;
+            display: flex;
+            input {
+                display: inline-block !important;
+            }
+            a {
+                margin-right: 30px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                li {
+                    cursor: pointer;
+                    display: inline-block;
+
+                    h2 {
+                        margin-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.products {
+    margin-top: 50px;
+
+    .item {
+        background: #8eb4cb;
+        border: 1px solid #FFFFFF;
+        margin: 15px 0;
+        padding: 30px;
+
+        a {
+            display: block;
+            text-align: center;
+        }
+
+        .delete-btn {
+            margin-top: 15px;
+        }
+
+        h4 {
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        span {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .wrapper {
+        align-items: center;
+        display: flex;
+
+        .btn {
+            margin-left: 30px;
+        }
+    }
+}
