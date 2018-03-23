@@ -27,15 +27,18 @@ header {
 
 .shop-index {
   margin-top: 50px; }
-  .shop-index .item {
-    border: 1px solid #3097D1;
-    padding-bottom: 30px; }
-    .shop-index .item h4 {
-      margin-top: 30px;
-      text-align: center; }
-    .shop-index .item span {
-      display: block;
-      text-align: center; }
+  .shop-index a {
+    color: #000000;
+    text-decoration: none; }
+    .shop-index a .item {
+      border: 1px solid #3097D1;
+      padding-bottom: 30px; }
+      .shop-index a .item h4 {
+        margin-top: 30px;
+        text-align: center; }
+      .shop-index a .item span {
+        display: block;
+        text-align: center; }
 
 .products {
   margin-top: 50px; }
