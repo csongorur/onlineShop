@@ -31,4 +31,6 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function() {
     Route::get('products/add', ['as' => 'admin.products.add', 'uses' => 'Admin\ProductsController@add']);
     Route::post('products/store', ['as' => 'admin.products.store', 'uses' => 'Admin\ProductsController@store']);
     Route::get('products/delete/{id?}', ['as' => 'admin.products.delete', 'uses' => 'Admin\ProductsController@delete']);
+    Route::get('products/edit/{product}', ['as' => 'admin.products.edit', 'uses' => 'Admin\ProductsController@edit']);
+    Route::post('products/update/{product}', ['as' => 'admin.products.update', 'uses' => 'Admin\ProductsController@update']);
 });

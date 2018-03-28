@@ -22,7 +22,7 @@
                             <h4>{{ $product->name }}</h4>
                             <span>{{ $product->price . ' RON' }}</span>
                             <span>{{ $product->nr }}</span>
-                            <a class="btn btn-primary">Show</a>
+                            <a class="btn btn-primary" href="{{ route('admin.products.edit', ['product' => $product->id]) }}">Edit</a>
                             <a class="btn btn-danger delete-btn" data-id="{{ $product->id }}">Delete</a>
                         </div>
                     </div>
